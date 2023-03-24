@@ -1,0 +1,30 @@
+{
+  "name": "@feasy/notify",
+  "version": "1.8.0",
+  "description": "notify service",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mail",
+    "service"
+  ],
+  "author": "liudx",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.1",
+    "@types/nodemailer": "^6.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "nodemon": "^2.0.21",
+    "rimraf": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
