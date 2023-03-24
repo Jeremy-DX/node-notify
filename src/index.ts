@@ -70,10 +70,10 @@ const mailOptions: MailOptions = {
   subject: '邮件通知',
   text: 'Hello World!',
   html: '<p>Hello World!</p>',
-  attachments: [
-    { filename: 'file1.txt', content: 'Attachment 1' },
-    { filename: 'file2.txt', content: 'Attachment 2' },
-  ],
+  // attachments: [
+  //   { filename: 'file1.txt', content: 'Attachment 1' },
+  //   { filename: 'file2.txt', content: 'Attachment 2' },
+  // ],
 };
 const defaultTransportOptions: MyTransportOptions = {
   host: 'smtp.163.com',
